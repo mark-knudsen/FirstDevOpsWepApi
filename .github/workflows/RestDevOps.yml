@@ -48,9 +48,9 @@ jobs:
     - name: Azure Login
       uses: azure/login@v2
       with:
-        client-id: ${{ vars.RestDevOps_CLIENT_ID_962A }}
-        tenant-id: ${{ vars.RestDevOps_TENANT_ID_F204 }}
-        subscription-id: ${{ vars.RestDevOps_SUBSCRIPTION_ID_F204 }}
+        client-id: ${{ vars.RestDevOps_CLIENT_ID_61F6 }}
+        tenant-id: ${{ vars.RestDevOps_TENANT_ID_61F6 }}
+        subscription-id: ${{ vars.RestDevOps_SUBSCRIPTION_ID_61F6 }}
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
